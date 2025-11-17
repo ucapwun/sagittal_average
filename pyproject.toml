@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sagittal_average"
+version = "0.1.0"
+description = "Compute the sagittal brain average from CSV data."
+readme = "README.md"
+authors = [
+    { name = "Charlene" }
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/UCL-COMP0233-25-26/sagittal_average"
+
+[tool.setuptools]
+packages = ["sagittal_average"]
